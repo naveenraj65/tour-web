@@ -7,6 +7,7 @@ import TravelBlog from "./pages/TravelBlog";
 import TravelGuides from "./pages/TravelGuides";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contect";
+import Bali from "./pages/Bali";
 
 
 function App(){
@@ -21,7 +22,7 @@ function App(){
          <Route path = '/TravelGuides' element={<TravelGuides/>}/>
          <Route path = '/FAQ' element={<FAQ/>}/>
          <Route path = '/Contect' element={<Contact/>}/>
-     
+         <Route path = '/Bali' element={<Bali/>}/>     
       </Routes>
       <Footer/>
       </BrowserRouter>

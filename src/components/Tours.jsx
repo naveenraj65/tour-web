@@ -1,5 +1,5 @@
 import React from "react";
-import Paris from "../pages/Paris"
+import TripDetails from "../pages/TripDetails";
 import { Link } from "react-router-dom";
 
 const places = [
@@ -23,8 +23,8 @@ const places = [
   },
   {
     id: 3,
-    name: "Dubai",
-    country: "UAE",
+    name: "Greece",
+    country: "USA",
     image:
       "https://images.unsplash.com/photo-1498496294664-d9372eb521f3",
     description: "Luxury city known for Burj Khalifa and desert safari.",
@@ -80,7 +80,7 @@ const TouristPlaces = () => {
 
                    {/* 👇 Navigation Button */}
       {place.name === "Paris" && (
-        <Link to="/Paris">
+        <Link to="/trip/paris">
           <button className="mt-4 w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">
             View Details
           </button>
@@ -88,7 +88,15 @@ const TouristPlaces = () => {
       )}
 
        {place.name === "Bali" && (
-        <Link to="/Bali">
+        <Link to="/trip/bali">
+          <button className="mt-4 w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">
+            View Details
+          </button>
+        </Link>
+      )}
+
+       {place.name === "Greece" && (
+        <Link to="/trip/greece">
           <button className="mt-4 w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">
             View Details
           </button>

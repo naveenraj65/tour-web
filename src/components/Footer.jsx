@@ -42,28 +42,28 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-3">Destinations</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">Bali</a></li>
-              <li><a href="#" className="hover:text-white">Greece</a></li>
-              <li><a href="#" className="hover:text-white">Japan</a></li>
-              <li><a href="#" className="hover:text-white">Peru</a></li>
+              <li><a href="/trip/bali" className="hover:text-white">Bali</a></li>
+              <li><a href="/trip/greece" className="hover:text-white">Greece</a></li>
+              <li><a href="/trip/japan" className="hover:text-white">Japan</a></li>
+              <li><a href="/trip/peru" className="hover:text-white">Peru</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-3">Company</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">About Us</a></li>
-              <li><a href="#" className="hover:text-white">Our Team</a></li>
-              <li><a href="#" className="hover:text-white">Careers</a></li>
-              <li><a href="#" className="hover:text-white">Contact</a></li>
+              <li><a href="#About" className="hover:text-white">About Us</a></li>
+              <li><a href="#Meet" className="hover:text-white">Our Team</a></li>
+              <li><a href="/Careers" className="hover:text-white">Careers</a></li>
+              <li><a href="/Contect" className="hover:text-white">Contact</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-3">Support</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">Help Center</a></li>
-              <li><a href="#" className="hover:text-white">Travel Insurance</a></li>
-              <li><a href="#" className="hover:text-white">Cancellation Policy</a></li>
-              <li><a href="#" className="hover:text-white">FAQ</a></li>
+              <li><a href="/help" className="hover:text-white">Help Center</a></li>
+              <li><a href="/help" className="hover:text-white">Travel Insurance</a></li>
+              <li><a href="/cancellation-policy" className="hover:text-white">Cancellation Policy</a></li>
+              <li><a href="/FAQ" className="hover:text-white">FAQ</a></li>
             </ul>
           </div>
         </div>

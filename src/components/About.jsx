@@ -47,7 +47,7 @@ const About = () => {
         </div>
 
         {/* Team Section */}
-        <div className="mt-12">
+        <div id="Meet" className="mt-12">
           <h2 className="text-3xl font-bold text-center text-blue-600 mb-8">
             Meet Our Team
           </h2>

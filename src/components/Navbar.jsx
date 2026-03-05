@@ -58,7 +58,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="/Contact"
+              href="/contect"
               className="bg-yellow-500 text-white px-5 py-2 rounded-full hover:bg-yellow-600 transition"
             >
               Contact
